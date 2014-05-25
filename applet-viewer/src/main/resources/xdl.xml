@@ -1,0 +1,305 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<vdx>
+<typeCatalogue id="guid00000000-0000-0000-0000-000000000000">
+<entTypes>
+<entType localName="People" representation="theme">
+<catProperty localName="RYBH" displayName="人员编号" isHidden="" isLabel="true" isToolTip="true"/>
+<catProperty localName="XM" displayName="姓名" isHidden="" isLabel="true" isToolTip="true"/>
+<imgURL height="" width="" URL="file:///E:/projects/bi/iXvSh/WebRoot/VLImages/vlv/vlv_person_green.gif">base64 encode</imgURL>
+</entType>
+<entType localName="Wu">
+<catProperty localName="WPBH" displayName="物品编号" isHidden="" isLabel="true" isToolTip="true"/>
+<imgURL height="" width="" URL="file:///E:/projects/bi/iXvSh/WebRoot/VLImages/vlv/vlv_phone_asset.gif"></imgURL>
+</entType>
+<entType localName="Group">
+<catProperty localName="LABEL" displayName="label" isHidden="" isLabel="true" isToolTip="true"/>
+<imgURL height="" width="" URL="file:///E:/projects/bi/iXvSh/WebRoot/VLImages/vlv/vlv_person_green.gif"></imgURL>
+</entType>
+<entType localName="Event" LNDateTime="StartTime">
+<catProperty localName="MS" displayName="描述" isHidden="" isLabel="true" isToolTip="true"/>
+<catProperty localName="StartTime" displayName="发生时间" isHidden="" isLabel="true" isToolTip="true" fGUID="guidD1219C6C-067B-45EB-A0F9-B4BB7970E4C0"/>
+<imgURL height="" width="" URL="file:///E:/projects/bi/iXvSh/WebRoot/VLImages/vlv/vlv_person_green.gif"></imgURL>
+</entType>
+</entTypes>
+<linkTypes>
+<linkType localName="RW" showArrows="true">
+<catProperty localName="LB" displayName="类别" isHidden="" isLabel="true" isToolTip="true"/>
+</linkType>
+<linkType localName="RS" showArrows="true">
+<catProperty localName="LB" displayName="类别" isHidden="" isLabel="true" isToolTip="true"/>
+</linkType>
+<linkType localName="ShareFood" showArrows="true">
+<catProperty localName="LABEL" displayName="xxx" isHidden="" isLabel="true" isToolTip=""/>
+</linkType>
+</linkTypes>
+<forms>
+			<form fGUID="guidFDEED4A3-619E-45DE-AF1A-2A4108EF9593">
+				<FormName>Unformed Text</FormName>
+				<baseForm>text</baseForm>
+			</form>
+			<form fGUID="guid4DAD0EE8-5B22-4C72-AEBC-0053D7BBCD06">
+				<FormName>Country - Full Name</FormName>
+				<baseForm>text</baseForm>
+			</form>
+			<!-- 日期时间型属性（需要通过该属性进行时序展现的实体）的fGUID必须指向这个GUID， -->
+			<form fGUID="guidD1219C6C-067B-45EB-A0F9-B4BB7970E4C0">
+				<FormName>DateTime</FormName>
+				<baseForm>dateTime</baseForm>
+				<formatters>
+					<formatter syntax=".net">yyyy-MM-dd HH:mm:ss</formatter>
+					<formatter syntax=".net">yyyy-MM-dd HH:mm</formatter>
+					<formatter syntax=".net">yyyy-MM-dd</formatter>
+					<formatter syntax=".net">yyyyMMdd</formatter>
+				</formatters>
+			</form>
+		</forms>
+</typeCatalogue>
+<content>
+<ents>
+<ent id="13917956594" catType="Wu" isHidden="" xpos="" ypos="" isFixed="" >
+<properties>
+<WPBH>13917956594</WPBH>
+</properties>
+</ent>
+<ent id="13761240339" catType="Wu" isHidden="" xpos="" ypos="" isFixed="" >
+<properties>
+<WPBH>13761240339</WPBH>
+</properties>
+</ent>
+<ent id="13681614033" catType="Wu" isHidden="" xpos="" ypos="" isFixed="" >
+<properties>
+<WPBH>13681614033</WPBH>
+</properties>
+</ent>
+<ent id="653226198008100239阿不都力艾则孜" catType="People" isHidden="" xpos="" ypos="" isFixed="" >
+<properties>
+<RYBH>653226198008100239阿不都力艾则孜</RYBH>
+<XM>阿不都力艾则孜</XM>
+</properties>
+</ent>
+<ent id="654123198306031194阿不都西居马洪" catType="People" isHidden="" xpos="" ypos="" isFixed="" >
+<properties>
+<RYBH>654123198306031194阿不都西居马洪</RYBH>
+<XM>阿不都西居马洪</XM>
+</properties>
+</ent>
+<ent id="65292419800525005X麦麦提?艾麦提" catType="People" isHidden="" xpos="" ypos="" isFixed="" >
+<properties>
+<RYBH>65292419800525005X麦麦提?艾麦提</RYBH>
+<XM>麦麦提?艾麦提</XM>
+</properties>
+</ent>
+<ent id="653226197512150214阿布都艾尼-买" catType="People" isHidden="" xpos="" ypos="" isFixed="" >
+<properties>
+<RYBH>653226197512150214阿布都艾尼-买</RYBH>
+<XM>阿布都艾尼-买</XM>
+</properties>
+</ent>
+<ent id="654124197305080017阿合买提江买买提" catType="People" isHidden="" xpos="" ypos="" isFixed="" >
+<properties>
+<RYBH>654124197305080017阿合买提江买买提</RYBH>
+<XM>阿合买提江买买提</XM>
+</properties>
+</ent>
+<ent id="654124196812180018肉孜阿洪•努斯拉提" catType="People" isHidden="" xpos="" ypos="" isFixed="" >
+<properties>
+<RYBH>654124196812180018肉孜阿洪•努斯拉提</RYBH>
+<XM>肉孜阿洪•努斯拉提</XM>
+</properties>
+</ent>
+<ent id="654126197206270010赛依迪艾合买提" catType="People" isHidden="" xpos="" ypos="" isFixed="" >
+<properties>
+<RYBH>654126197206270010赛依迪艾合买提</RYBH>
+<XM>赛依迪艾合买提</XM>
+</properties>
+</ent>
+<ent id="3101150040019DB258A0220100427213" catType="Event">
+<properties>
+<MS>网吧上网</MS>
+<StartTime>2010-04-27 21:39:16</StartTime>
+</properties>
+</ent>
+<ent id="584227533390FBA606367B2010060923" catType="Event">
+<properties>
+<MS>网吧上网</MS>
+<StartTime>2010-06-09 23:01:46</StartTime>
+</properties>
+</ent>
+<ent id="B3101125700002010029860" catType="Event">
+<properties>
+<MS>案事件</MS>
+<StartTime>2010-01-19 15:50:00</StartTime>
+</properties>
+</ent>
+<ent id="85C3612F77AAD0DCE0430A0E9C84D0DC" catType="Event">
+<properties>
+<MS>旅馆住宿</MS>
+<StartTime>2010-05-04 10:35:27</StartTime>
+</properties>
+</ent>
+<ent id="3101150040019DB26C11720100414135" catType="Event">
+<properties>
+<MS>网吧上网</MS>
+<StartTime>2010-04-14 13:58:27</StartTime>
+</properties>
+</ent>
+<ent id="B3101080511002005100047" catType="Event">
+<properties>
+<MS>案事件</MS>
+<StartTime>2005-10-22 16:15:00</StartTime>
+</properties>
+</ent>
+<ent id="85C35FAE6B6AD0DCE0430A0E9C84D0DC" catType="Event">
+<properties>
+<MS>旅馆住宿</MS>
+<StartTime>2010-01-31 11:25:29</StartTime>
+</properties>
+</ent>
+<ent id="B3101094400002006110060" catType="Event">
+<properties>
+<MS>案事件</MS>
+<StartTime>2006-11-02 18:00:00</StartTime>
+</properties>
+</ent>
+<ent id="B3101125800002009070246" catType="Event">
+<properties>
+<MS>案事件</MS>
+<StartTime>2009-07-20 00:00:00</StartTime>
+</properties>
+</ent>
+<ent id="89F6E5319226B160E0430A0E9C84B160" catType="Event">
+<properties>
+<MS>旅馆住宿</MS>
+<StartTime>2010-06-26 18:02:00</StartTime>
+</properties>
+</ent>
+<ent id="B3101125800002009070050" catType="Event">
+<properties>
+<MS>案事件</MS>
+<StartTime>2009-07-05 00:00:00</StartTime>
+</properties>
+</ent>
+<ent id="85D365262075B388E0430A0E9C84B388" catType="Event">
+<properties>
+<MS>旅馆住宿</MS>
+<StartTime>2010-05-05 11:59:05</StartTime>
+</properties>
+</ent>
+<ent id="88D26C8DA51F2092E0430A0E9C842092" catType="Event">
+<properties>
+<MS>旅馆住宿</MS>
+<StartTime>2010-06-03 20:55:39</StartTime>
+</properties>
+</ent>
+<ent id="B3101127300002009070165" catType="Event">
+<properties>
+<MS>案事件</MS>
+<StartTime>2009-07-18 20:30:00</StartTime>
+</properties>
+</ent>
+<ent id="B1" catType="Event">
+<properties>
+<MS>七宝镇案事件</MS>
+<StartTime>2010-02-01 18:30:00</StartTime>
+</properties>
+</ent>
+</ents>
+<links>
+<link id="1" catType="RW" direction="forward" ent1id="13917956594" ent2id="653226198008100239阿不都力艾则孜">
+<properties>
+<LB>电话</LB>
+</properties>
+</link>
+<link id="2" catType="RW" direction="forward" ent1id="13681614033" ent2id="654123198306031194阿不都西居马洪">
+<properties>
+<LB>电话</LB>
+</properties>
+</link>
+<link id="3" catType="RW" direction="both" ent1id="13761240339" ent2id="65292419800525005X麦麦提?艾麦提">
+<properties>
+<LB>电话</LB>
+</properties>
+</link>
+<link id="4" catType="RW" direction="both" ent1id="13761240339" ent2id="653226197512150214阿布都艾尼-买">
+<properties>
+<LB>电话</LB>
+</properties>
+</link>
+<link id="5" catType="RW" direction="both" ent1id="13761240339" ent2id="653226197512150214阿布都艾尼-买">
+<properties>
+<LB>电话</LB>
+</properties>
+</link>
+<link id="6" catType="RS" direction="both" ent1id="653226198008100239阿不都力艾则孜" ent2id="3101150040019DB258A0220100427213">
+<properties>
+</properties>
+</link>
+<link id="7" catType="RS" direction="both" ent1id="653226198008100239阿不都力艾则孜" ent2id="584227533390FBA606367B2010060923">
+<properties>
+</properties>
+</link>
+<link id="8" catType="RS" direction="both" ent1id="653226198008100239阿不都力艾则孜" ent2id="B3101125700002010029860">
+<properties>
+</properties>
+</link>
+<link id="9" catType="RS" direction="both" ent1id="653226198008100239阿不都力艾则孜" ent2id="85C3612F77AAD0DCE0430A0E9C84D0DC">
+<properties>
+</properties>
+</link>
+<link id="10" catType="RS" direction="both" ent1id="65292419800525005X麦麦提?艾麦提" ent2id="3101150040019DB26C11720100414135">
+<properties>
+</properties>
+</link>
+<link id="11" catType="RS" direction="both" ent1id="65292419800525005X麦麦提?艾麦提" ent2id="B3101080511002005100047">
+<properties>
+</properties>
+</link>
+<link id="12" catType="RS" direction="both" ent1id="65292419800525005X麦麦提?艾麦提" ent2id="85C35FAE6B6AD0DCE0430A0E9C84D0DC">
+<properties>
+</properties>
+</link>
+<link id="13" catType="RS" direction="both" ent1id="653226197512150214阿布都艾尼-买" ent2id="B3101094400002006110060">
+<properties>
+</properties>
+</link>
+<link id="14" catType="RS" direction="both" ent1id="653226197512150214阿布都艾尼-买" ent2id="B3101125800002009070246">
+<properties>
+</properties>
+</link>
+<link id="15" catType="RS" direction="both" ent1id="653226197512150214阿布都艾尼-买" ent2id="89F6E5319226B160E0430A0E9C84B160">
+<properties>
+</properties>
+</link>
+<link id="16" catType="RS" direction="both" ent1id="653226197512150214阿布都艾尼-买" ent2id="B3101125800002009070050">
+<properties>
+</properties>
+</link>
+<link id="17" catType="RS" direction="both" ent1id="654123198306031194阿不都西居马洪" ent2id="85D365262075B388E0430A0E9C84B388">
+<properties>
+</properties>
+</link>
+<link id="18" catType="RS" direction="both" ent1id="654123198306031194阿不都西居马洪" ent2id="88D26C8DA51F2092E0430A0E9C842092">
+<properties>
+</properties>
+</link>
+<link id="19" catType="RS" direction="both" ent1id="654123198306031194阿不都西居马洪" ent2id="B3101127300002009070165">
+<properties>
+</properties>
+</link>
+<link id="20" catType="RS" direction="both" ent1id="654124197305080017阿合买提江买买提" ent2id="85C3612F77AAD0DCE0430A0E9C84D0DC">
+<properties>
+</properties>
+</link>
+<link id="21" catType="RS" direction="both" ent1id="654124196812180018肉孜阿洪•努斯拉提" ent2id="85C35FAE6B6AD0DCE0430A0E9C84D0DC">
+<properties>
+</properties>
+</link>
+<link id="22" catType="RS" direction="both" ent1id="654126197206270010赛依迪艾合买提" ent2id="B3101125800002009070050">
+<properties>
+</properties>
+</link>
+</links>
+</content>
+</vdx>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vdx>
+<content>
+<ents>
+<ent id="id-Shultz-space-Pensions_merge" catType="Company" isHidden="" xpos="" ypos="" isFixed="" >
+<properties>
+<I2_SYS_LABEL>理想-ideal_merge</I2_SYS_LABEL>
+<CompanyName>telecomon Pensions</CompanyName>
+<LineOfBusiness>Finance</LineOfBusiness>
+</properties>
+</ent>
+<ent id="id-Arthur-space-Barr_merge" catType="People" isHidden="" xpos="" ypos="" isFixed="" >
+<properties>
+<I2_SYS_LABEL>修超-john_merge</I2_SYS_LABEL>
+<CompanyName>Arthur Barr</CompanyName>
+<LineOfBusiness>Finance</LineOfBusiness>
+<RegistrationNumber>40241244</RegistrationNumber>
+</properties>
+</ent>
+<ent id="id-Arthur-space-telecom_merge" catType="Group" isHidden="" xpos="" ypos="" isFixed="" >
+<properties>
+<I2_SYS_LABEL>电信-telecom_merge</I2_SYS_LABEL>
+<CompanyName>Arthur telecom</CompanyName>
+<LineOfBusiness>Finance</LineOfBusiness>
+<RegistrationNumber>40241244</RegistrationNumber>
+</properties>
+</ent>
+</ents>
+<links>
+<link id="id-ShultzPensions-link-ArthurBarr_merge" catType="Shareholding" direction="forward" ent1Id="id-Shultz-space-Pensions_merge" ent2Id="id-Arthur-space-Barr_merge">
+<properties>
+<I2_SYS_LABEL>雇佣_merge</I2_SYS_LABEL>
+</properties>
+</link>
+<link id="id-ShultzPensions-link-FoodBarr_merge" catType="ShareFood" direction="both" ent1Id="id-Shultz-space-Pensions_merge" ent2Id="id-Arthur-space-telecom_merge">
+<properties>
+<I2_SYS_LABEL>拥有属于_merge</I2_SYS_LABEL>
+</properties>
+</link>
+<link id="id-ShultzPensions-link-FoodBarr_new" catType="ShareFood" direction="both" ent1Id="id-Shultz-space-Pensions_merge" ent2Id="id-Arthur-space-telecom">
+<properties>
+<I2_SYS_LABEL>拥有属于_merge</I2_SYS_LABEL>
+</properties>
+</link>
+</links>
+</content>
+</vdx>

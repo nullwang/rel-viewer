@@ -1,0 +1,13 @@
+panning = \u9009\u62e9/\u79fb\u52a8
+zoomin = \u653e\u5927
+zoomout = \u7f29\u5c0f
+zoomto1 = \u771f\u5b9e\u5927\u5c0f
+zoomtofit = \u7a97\u53e3\u5927\u5c0f
+zoomtoarea = \u533a\u57df\u5927\u5c0f
+viewgrid = \u7f51\u683c\u5e03\u5c40
+viewtimeline = \u65f6\u95f4\u5e03\u5c40
+viewhierarchy = \u5c42\u6b21\u5e03\u5c40
+viewround = \u5706\u5f62\u5e03\u5c40
+viewgroup = \u5206\u7ec4\u5e03\u5c40
+viewpeacock = \u7f51\u683c\u5e03\u5c40
+reorganize = \u91cd\u65b0\u5e03\u5c40

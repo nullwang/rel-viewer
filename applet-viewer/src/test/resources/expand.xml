@@ -1,0 +1,221 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<rel>
+	<typeCatalogue>
+		<entTypes>
+		</entTypes>
+		<linkTypes>	
+		</linkTypes>		
+	</typeCatalogue>
+	<content>
+			<ents>
+			
+			<ent catType="People" id="63219876233_赵本山" 
+			representation="icon" isHidden="false">
+			<properties>
+			
+			<TF_R_RYBH>SH1235</TF_R_RYBH>
+			
+			<TF_R_ZJH>63219876233</TF_R_ZJH>
+			
+			<TF_R_XM>赵本山</TF_R_XM>
+			
+			</properties>
+			
+			<formatting>
+			
+			<imgURL height="-1" width="-1" URL="">/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAPAAA/+4ADkFkb2JlAGTAAAAAAf/b
+AIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoKDBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxsc
+Hx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f
+Hx8fHx8fHx8fHx8fHx8fHx8f/8AAEQgADwBIAwERAAIRAQMRAf/EAIUAAAMBAQAAAAAAAAAAAAAA
+AAMEBgUHAQACAwEAAAAAAAAAAAAAAAAAAQIDBAUQAAEEAQIEBQMFAQAAAAAAAAIBAwQFBhESACET
+BzFBYRQVUSIycaEjM0MWEQABAwMCBQMCBwAAAAAAAAABABECIRIDQQQxUSIyBWGR0XGBocHhEyMU
+Ff/aAAwDAQACEQMRAD8A6pL7s38q8tK3FcQk38enfWJMnJICOHuA5GAoQlrtX14oddKOxgICWTII
+GQcBiaIOQd6ZtdYWMWBi8mzaomWnchktPgIRDcBDJvXaSGrfNFX0XyTgMk8PjxKIJmI3np9fhCnd
+92n330xXH5WQw4ENqfaSm3BZRhp4OoibSElIhHx9dfovA6cPHU/kkIEkgDi7U+yLY98G3H48fFaC
+TkTp14WsxGzRroMOIioi/ae4015onnyTXgu5JY/HUJyTEOq3m5+FlH3ppBvW8kU5/wAQWNrN+N6g
+dHr++9vt6en9vUTZv3aacDq3/OnbZ03fuM+va/HkiMd/Z/s5c2XjTcaNGjPyAT5KObxlHUUJvooP
+URUI0QuWo/ThGShLx0HAjNySB2nXV1U3vdOuppuMsy4hDHyGI9Ockq4iJGaYYR8tR0+9dC08U4k6
+z49mZiZB7G+7llhU3fYZE6rW6x6TSUd4ppVXD7omDm1NU3gIptReXn+3CElfl8bbGVsxKUO4cvlM
+Y/3ayfJH2ZNFhcmVjz8jot25ym2kVsXNhu9Mh10HmumvpwApZdjDGCJ5AJgdrH2dCc7ZJOvrmxwn
+OZNOMuUR3MCCTclsJv8ApuRD/jNfMS58DHRQO5aMRkhcwoS4p+aTyLtfQWthdy4ucO1YuMNNZpHY
+cY2OK03tV2SO4UYJwRVS3Jp4+vAQp4t1OIiDB69HH8OanMvxqqqnflu1k35Bx2KEG6qIEyO5GSJ7
+Ym25MtVNdobeakvJfy1TmvAfRW48spNHMGq4JBd3qAqrtJhON0rvuo+RRrO0epI0SbDivMug02Oi
+k8JAREoKXISVNOFEMs+8zTkGMSI3EhYsDthgjFcy1CzqKpjTnCZkboboqyVkshZO0jIVFHVVnXw1
+893DZaMm6yk9UD3PqK2s3tVMU/bXtxX2Vq/k+YxrqwlRJMZ4X3o0VWG3NySXVATX70VV1NfxXx58
+JhqoS3OUxAhAxAIOprp+gUc3hFnIyuHTZBe9DEqyNYBU3dnKjI5JiSIqN6wh3/e22Oh667RTx08O
+Blf/AGBZKUY9crXABox1+pouk2uD4O7jmCRLDJY4V1C625XyHHGBbsUBB1AVI9qoWifgq8uG3BYx
+nyXZDbWTv6IeJ9r3oZR5eHZ7L/5MJKvx62N0ZUbb1NzjIvISiQ66ivL9efAAdCnn3NzjJDr51B9l
+/9k=
+</imgURL>
+			
+			</formatting>
+			
+			</ent>		
+			
+			<ent catType="WuDh" id="666123" 
+			representation="icon" isHidden="false">
+			<properties>
+			
+			<TF_DHH>666123</TF_DHH>
+			
+			</properties>
+			
+			</ent>		
+			
+			<ent catType="WuDh" id="666124" 
+			representation="icon" isHidden="false">
+			<properties>
+			
+			<TF_DHH>666124</TF_DHH>
+			
+			</properties>
+			
+			</ent>		
+			
+			<ent catType="WuDh" id="666125" 
+			representation="icon" isHidden="false">
+			<properties>
+			
+			<TF_DHH>666125</TF_DHH>
+			
+			</properties>
+			
+			</ent>		
+			
+			<ent catType="Event " id="1" 
+			representation="icon" isHidden="false">
+			<properties>
+			
+			<TF_SJBH>1</TF_SJBH>
+			
+			<TF_SJLB></TF_SJLB>
+			
+			<TF_SJMC>住宿</TF_SJMC>
+			
+			</properties>
+			
+			</ent>		
+			
+			<ent catType="Event " id="2" 
+			representation="icon" isHidden="false">
+			<properties>
+			
+			<TF_SJBH>2</TF_SJBH>
+			
+			<TF_SJLB></TF_SJLB>
+			
+			<TF_SJMC>做飞机</TF_SJMC>
+			
+			</properties>
+			
+			</ent>		
+			
+			<ent catType="Event " id="3" 
+			representation="icon" isHidden="false">
+			<properties>
+			
+			<TF_SJBH>3</TF_SJBH>
+			
+			<TF_SJLB></TF_SJLB>
+			
+			<TF_SJMC>开车</TF_SJMC>
+			
+			</properties>
+			
+			</ent>		
+			
+			</ents>
+			<links>			
+            
+            <link catType="peotopeo" id="43219876232_刘德华_63219876233_赵本山_0" ent1id="43219876232_刘德华"
+           ent2id="63219876233_赵本山" isHidden="false" lineThickness="-1"
+            dotStyle="confirmed" color="" >
+            <properties>
+            
+            </properties>
+            </link>
+            
+            <link catType="peoTodh" id="43219876232_刘德华_666123_0" ent1id="43219876232_刘德华"
+           ent2id="666123" isHidden="false" lineThickness="-1"
+            dotStyle="confirmed" color="" >
+            <properties>
+            
+            </properties>
+            </link>
+            
+            <link catType="peoTodh" id="43219876232_刘德华_666124_1" ent1id="43219876232_刘德华"
+           ent2id="666124" isHidden="false" lineThickness="-1"
+            dotStyle="confirmed" color="" >
+            <properties>
+            
+            </properties>
+            </link>
+            
+            <link catType="peoTodh" id="43219876232_刘德华_666125_2" ent1id="43219876232_刘德华"
+           ent2id="666125" isHidden="false" lineThickness="-1"
+            dotStyle="confirmed" color="" >
+            <properties>
+            
+            </properties>
+            </link>
+            
+            <link catType="peotoEvent" id="GX1" ent1id="43219876232_刘德华"
+           ent2id="1" isHidden="false" lineThickness="-1"
+            dotStyle="confirmed" color="red" >
+            <properties>
+            
+            <TF_RS_RYBH>SH1234</TF_RS_RYBH>
+            
+            <TF_RS_PK>GX1</TF_RS_PK>
+            
+            <TF_RS_SJBH>1</TF_RS_SJBH>
+            
+            </properties>
+            </link>
+            
+            <link catType="peotoEvent" id="GX2" ent1id="43219876232_刘德华"
+           ent2id="2" isHidden="false" lineThickness="-1"
+            dotStyle="confirmed" color="red" >
+            <properties>
+            
+            <TF_RS_RYBH>SH1234</TF_RS_RYBH>
+            
+            <TF_RS_PK>GX2</TF_RS_PK>
+            
+            <TF_RS_SJBH>2</TF_RS_SJBH>
+            
+            </properties>
+            </link>
+            
+            <link catType="peotoEvent" id="GX3" ent1id="43219876232_刘德华"
+           ent2id="2" isHidden="false" lineThickness="-1"
+            dotStyle="confirmed" color="red" >
+            <properties>
+            
+            <TF_RS_RYBH>SH1234</TF_RS_RYBH>
+            
+            <TF_RS_PK>GX3</TF_RS_PK>
+            
+            <TF_RS_SJBH>2</TF_RS_SJBH>
+            
+            </properties>
+            </link>
+            
+            <link catType="peotoEvent" id="GX4" ent1id="43219876232_刘德华"
+           ent2id="3" isHidden="false" lineThickness="-1"
+            dotStyle="confirmed" color="red" >
+            <properties>
+            
+            <TF_RS_RYBH>SH1234</TF_RS_RYBH>
+            
+            <TF_RS_PK>GX4</TF_RS_PK>
+            
+            <TF_RS_SJBH>3</TF_RS_SJBH>
+            
+            </properties>
+            </link>
+            
+			</links>
+	</content>
+</rel>
