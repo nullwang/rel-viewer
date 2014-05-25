@@ -9,7 +9,7 @@ rel-viewer
 
 ![](https://cloud.githubusercontent.com/assets/1137407/3076563/61bc5fce-e3ea-11e3-87d2-7d726f71d4cc.JPG "")
 
-![](https://cloud.githubusercontent.com/assets/1137407/3076564/64ea7988-e3ea-11e3-99f5-3c08d2cbf0b7.JPG "")
+![](https://cloud.githubusercontent.com/assets/1137407/3076601/710f696e-e3ed-11e3-8b66-5ba240422076.jpg "")
 
 ![](https://cloud.githubusercontent.com/assets/1137407/3076565/66c0cc08-e3ea-11e3-93ac-d8f6e62b188a.JPG "")
 
