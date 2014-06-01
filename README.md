@@ -1,8 +1,8 @@
 rel-viewer
 ==========
-数据可视化工具，用来将关系数据库中的数据通过图形方式呈现。
+data visualization tool. using graph to show data relationship, you can easily find the value of data。
 
-它支持不同中布局来体现数据价值
+It have different layouts to show the data relationship
 ![](https://cloud.githubusercontent.com/assets/1137407/3076572/1281abc0-e3eb-11e3-8ea0-7a0852480712.JPG "")
 
 ![](https://cloud.githubusercontent.com/assets/1137407/3076562/5ee574a2-e3ea-11e3-9afd-ee7a08d4ceaa.JPG "")
