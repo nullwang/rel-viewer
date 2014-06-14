@@ -142,7 +142,7 @@ public class RelChart extends JPanel implements ActionListener,
 	
 	private void initMessage()
 	{
-		String l = "���Ժ�...";
+		String l = "please wait...";
 		String str = ParameterUtil.getString(Parameter.INITIAL_WAITING_MESSAGE,l);
 		if( str.length() < 1 ) str = l;
 		

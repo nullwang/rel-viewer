@@ -58,7 +58,7 @@ public class ImageURL implements Cloneable{
 
 	/**
 	 * 
-	 * @return Í¼ÏñBASE64 ±àÂë
+	 * @return
 	 */
 	public String getImgCode() {
 		return imgCode;

@@ -22,4 +22,8 @@ public class BaseDao {
         return this.sessionFactory.getCurrentSession();
     }
 
+
+    public void save(Object obj) {
+        getSession().save(obj);
+    }
 }

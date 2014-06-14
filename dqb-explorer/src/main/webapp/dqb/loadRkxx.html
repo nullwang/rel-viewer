@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link type="text/css" href="../js/jquery/css/ui-lightness/jquery-ui-1.8.4.custom.css" rel="stylesheet" />  
+<link type="text/css" href="../js/jquery/css/ui.jqgrid.css" rel="stylesheet" />
+<script language="javascript" type="text/javascript" src="../js/jquery/jquery-1.4.2.min.js"></script>
+<script language="javascript" type="text/javascript" src="../js/jquery/i18n/grid.locale-en.js"></script>
+<script language="javascript" type="text/javascript" src="../js/jquery/jquery.jqGrid.min.js"></script>
+<title>pepole information</title>
+</head>
+<script type="text/javascript">
+$(document).ready(function(){
+	jQuery("#data").jqGrid({  
+        datatype: "json", //将这里改为使用JSON数据  
+        height: 250,  
+        width: 500,  
+        colNames:['number','name','id'],
+        colModel:[  
+            {name:'id',index:'id', width:60, sorttype:"int"},  
+            {name:'no',index:'no', width:90},
+            {name:'name',index:'name', width:100}       
+        ],  
+        pager: '#pager', //分页工具栏  
+       // imgpath: 'js/themes/basic/images', //图片存放路径  
+        rowNum:10, //每页显示记录数  
+        viewrecords: true, //是否显示行数  
+        rowList:[10,20,30], //可调整每页显示的记录数  
+        multiselect: true, //是否支持多选  
+        caption: "信息查看"
+    });
+    });
+function gridReload(){
+    var rybh = jQuery("#rybh").val();
+    var zjh = jQuery("#zjh").val();
+    var xm = jQuery("#xm").val();
+    
+    var url = "../ztk.do?t=r" + "&rybh=" + rybh + "&zjh="+zjh + "&xm=" + xm;
+    var sUrl = encodeURI(url);
+
+    jQuery("#data").jqGrid('setGridParam',{url:sUrl,page:1}).trigger("reloadGrid");
+}
+
+function merge(){
+	var selectedIds = $("#data").jqGrid("getGridParam", "selarrrow");
+	var clear = "0";
+	if ( $("input[id='clearPre']").is(":checked")) 
+		clear = "1";
+	window.returnValue = clear + "," + selectedIds
+	window.close();
+}
+
+</script>
+
+<body>
+<table width=90% height=30 cellpadding=0 cellspacing=0>
+    <tr>
+        <td bgcolor='#f0f0f0' align=left>&nbsp;&nbsp;data query</td>
+        <td bgcolor='#f0f0f0' align=right>
+        <input type=button value='&nbsp;&nbsp;close&nbsp;&nbsp;' onclick='window.close()'/>&nbsp;&nbsp;
+        </td>
+    </tr>
+</table>
+<table>
+<tr>
+<td>number:</td>
+<td><input type="text" id="rybh" name="rybh"></input></td>
+</tr>
+<tr><td>id:</td>
+<td><input type="text" id="zjh" name="zjh"></input></td>
+</tr>
+<tr>
+<td>name:</td>
+<td><input type="text" id="xm" name="xm"></input>
+&nbsp;<button onclick="gridReload()" id="submitButton" style="margin-left:30px;">Find</button></td>
+</tr>
+</table>
+<table id="data"></table>
+<div id="pager"></div>
+<table width=90% height=30 cellpadding=0 cellspacing=0>
+<tr><td><input id="clearPre" type="checkbox">clear
+</td><td  align=right>
+<input type="button" value="merge" onclick="merge()">
+</td></tr>
+</table>
+</body>
+</html>

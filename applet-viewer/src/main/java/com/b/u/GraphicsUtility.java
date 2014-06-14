@@ -42,7 +42,6 @@ public class GraphicsUtility {
 	}
 	
 	/**
-	 * 获取f的缩放字体
 	 * @param f
 	 * @return
 	 */
@@ -106,7 +105,6 @@ public class GraphicsUtility {
 	}
 	
 	/**
-	 * 获取相交线
 	 * @param iterator
 	 * @param shape
 	 * @return

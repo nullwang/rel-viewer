@@ -2,12 +2,10 @@ package com.b.a;
 
 public class ViewerEvent  {	
 	/**
-	 * 鼠标进入chart的item
 	 */
 	public static int EVENT_MOUSEIN = 0;
 
 	/**
-	 * 鼠标离开chart的item
 	 */
 	public static int EVENT_MOUSEOUT = 1;
 	

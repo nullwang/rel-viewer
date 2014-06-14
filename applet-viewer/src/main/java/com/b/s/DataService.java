@@ -69,10 +69,9 @@ public class DataService {
 		}
 
 		/**
-		 * 根据类型名称获取相应的实体类型
 		 * 
-		 * @return 实体类型
-		 */
+		 * @return
+        */
 		public EntityType getEntityType(Object localName) {
 			EntityType et = null;
 			TypeCatalogue typeCatalogue = this.getDefaultCatalogue();
@@ -510,7 +509,6 @@ public class DataService {
 	}
 	
 	/**
-	 * 获取实体类型
 	 * @param id
 	 * @param type
 	 * @return
@@ -539,8 +537,6 @@ public class DataService {
 	}
 
 	/**
-	 * 根据实体id获取实体标签
-	 * 
 	 * @param id
 	 * @return
 	 */
@@ -549,10 +545,8 @@ public class DataService {
 	}
 
 	/**
-	 * 获取实体标签，没有返回null
 	 * 
 	 * @param entity
-	 *            实体标签
 	 * @return
 	 */
 	public String[] getEntityLabel(Entity entity) {
@@ -647,7 +641,7 @@ public class DataService {
 	}
 
 	/**
-	 * 获取link标签
+	 * 锟斤拷取link锟斤拷签
 	 * 
 	 * @param id
 	 * @return
@@ -766,7 +760,6 @@ public class DataService {
 	}
 
 	/**
-	 * 获取实体的图片组
 	 * 
 	 * @return
 	 */
@@ -951,11 +944,11 @@ public class DataService {
 	}
 
 	/**
-	 * 获取与实体相连的连接
+	 *
 	 * 
 	 * @param id
-	 *            实体id
-	 * @return 与实体相连的连接
+	 *
+	 * @return
 	 */
 	public Collection<Link> getLinks(Object id) {
 		List<Link> c = new ArrayList<Link>();

@@ -250,7 +250,6 @@ public class ClientSupportAdapter implements ClientEndSupport,
 	}
 
 	/**
-	 * 使用当前布局重新布局
 	 */
 	public void reorganize() {
 		reorganizeEx(layoutManager);

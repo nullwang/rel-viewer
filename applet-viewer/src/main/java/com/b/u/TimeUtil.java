@@ -209,7 +209,7 @@ public class TimeUtil {
 	
 	public static String getYearName(long t)
 	{
-		return getTimeFieldName(t,"yyyy")+"Äê";
+		return getTimeFieldName(t,"yyyy")+"";
 	}
 	
 	public static String getMonthName(long t)

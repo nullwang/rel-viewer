@@ -3,22 +3,20 @@ package com.b.a;
 public interface ClientMenuSupport {
 	
 	/**
-	 * Ïò¿ì½Ý²Ëµ¥£¬Ìí¼Ó²Ëµ¥Ïî
-	 * @param menuId ²Ëµ¥±êÊ¶´úÂë£¬Èç100
-	 * @param menuTxt ²Ëµ¥ÎÄ±¾£¬Èçexpand
+	 * @param menuId
+	 * @param menuTxt
 	 */
 	public void addMenuItem(String menuId, String menuTxt);
 	
 	/**
-	 * Çå³ý¿ì½Ý²Ëµ¥
+	 * ï¿½ï¿½ï¿½ï¿½Ý²Ëµï¿½
 	 */
 	public void clearMenuItems();
 	
 	/**
-	 * Ìí¼Ó×Ó²Ëµ¥
-	 * @param pMenuId ¸¸²Ëµ¥id
-	 * @param menuId ×Ó²Ëµ¥id
-	 * @param menuTxt ²Ëµ¥ÎÄ±¾
+	 * @param pMenuId
+	 * @param menuId
+	 * @param menuTxt
 	 */
 	public void addSubMenuItem(String pMenuId, String menuId, String menuTxt);
 	
@@ -26,8 +24,8 @@ public interface ClientMenuSupport {
 	public void setMenuItemState(String menuId, boolean blnEnable);
 	
 	/**
-	 * Ïò²Ëµ¥Ìí¼Ó·Ö¸î·û
-	 * @param menuId ²Ëµ¥id
+	 * ï¿½ï¿½Ëµï¿½ï¿½ï¿½Ó·Ö¸ï¿½ï¿½
+	 * @param menuId ï¿½Ëµï¿½id
 	 */
 	public void addSeparator(String menuId);
 	

@@ -33,7 +33,7 @@ public interface Parameter {
 	
 	String LAYOUT_MANAGER = "layout-manager";
 	String REL_FILE = "rel-file";
-	String INITIAL_WAITING_MESSAGE = "please waiting";
+	String INITIAL_WAITING_MESSAGE = "please wait...";
 	String RAISE_EVENTS = "raise-events";
 	String BACKGROUND_IMAGE = "background-image";
 	String BACKGROUND_IMAGE_STRETCH = "background-image-stretch";

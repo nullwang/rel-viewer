@@ -14,6 +14,7 @@
     <modules>
         <module>applet-viewer</module>
         <module>viewer-explorer</module>
+        <module>dqb-explorer</module>
     </modules>
 
     <issueManagement>
@@ -50,6 +51,19 @@
         <spring.version>4.0.4.RELEASE</spring.version>
             <hibernate.version>4.3.5.Final</hibernate.version>
     </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.6</source>
+                    <target>1.6</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
     <dependencyManagement>
         <dependencies>

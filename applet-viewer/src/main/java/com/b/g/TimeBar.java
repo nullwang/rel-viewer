@@ -117,7 +117,6 @@ public class TimeBar extends JPanel {
 	}
 
 	/**
-	 * 设置控制时间点
 	 * 
 	 * @param marks
 	 */

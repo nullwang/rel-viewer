@@ -35,7 +35,7 @@ public class Formatter implements Cloneable{
 			d = sdf.parse(strOfDate, new ParsePosition(0));
 			if (d != null)
 				return d;		
-		}catch ( Exception e) {}//格式异常返回null
+		}catch ( Exception e) {}
 		return d;
 	}
 	

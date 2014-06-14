@@ -21,7 +21,6 @@ public interface TypeService {
 	public Collection<TypeCatalogue> getCatalogues();
 	
 	/**
-	 * 返回默认类型库
 	 */
 	public TypeCatalogue getDefaultCatalogue();	
 	

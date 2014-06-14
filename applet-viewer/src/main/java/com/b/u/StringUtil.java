@@ -7,7 +7,6 @@ import java.util.Collection;
 public class StringUtil {	
 	
 	/**
-	 * 为字符串加""号
 	 * @param str
 	 * @return
 	 */
@@ -26,7 +25,6 @@ public class StringUtil {
 	}
 	
 	/**
-	 * 根据s构造URL，如果s不能构造，则根据 context 和 s构造
 	 * @param s
 	 * @param context
 	 * @return
