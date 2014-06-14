@@ -1,13 +1,8 @@
-rel-viewer
-==========
-how to run
-first run
-mvn install
-then deploy the data-explorer-${version}.war to any servlet container
-
-==========
-data visualization tool. using graph to show data relationship, you can easily find the value of data。
-
+###rel-viewer
+####How to run
+first run <br> *mvn install* <br> then deploy the data-explorer-${version}.war to any servlet container
+####Screenshot
+  data visualization tool. using graph to show data relationship, you can easily find the value of data。
 It have different layouts to show the data relationship
 ![](https://cloud.githubusercontent.com/assets/1137407/3076572/1281abc0-e3eb-11e3-8ea0-7a0852480712.JPG "")
 
