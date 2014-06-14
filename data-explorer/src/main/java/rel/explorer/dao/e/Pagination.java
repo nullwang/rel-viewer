@@ -62,7 +62,7 @@ public class Pagination extends JdbcDaoSupport {
 		paginationSQL.append(sql);
 		paginationSQL.append(" ) temp where ROWNUM <= " + lastIndex);
 		paginationSQL.append(" ) WHERE num > " + startIndex);
-		log.info(paginationSQL.toString());
+		//log.info(paginationSQL.toString());
 		//System.out.println("sql:" + paginationSQL.toString());
 		if( rowMapper == null) 
 			setResultList(getJdbcTemplate().queryForList(paginationSQL.toString()));

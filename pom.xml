@@ -4,17 +4,17 @@
 
     <groupId>org.rel-viewer</groupId>
     <artifactId>rel-viewer</artifactId>
-    <version>0.1-SNAPSHOT</version>
-    <name>The graph viewer</name>
+    <version>1.2</version>
+    <name>rel viewer - data visualization</name>
     <description></description>
     <url>https://github.com/nullwang/rel-viewer</url>
 
 
     <packaging>pom</packaging>
     <modules>
-        <module>applet-viewer</module>
-        <module>viewer-explorer</module>
-        <module>dqb-explorer</module>
+        <module>graph-plugin</module>
+        <module>view-data-core</module>
+        <module>data-explorer</module>
     </modules>
 
     <issueManagement>

@@ -4,12 +4,11 @@
     <parent>
         <groupId>org.rel-viewer</groupId>
         <artifactId>rel-viewer</artifactId>
-        <version>0.1-SNAPSHOT</version>
+        <version>1.2</version>
     </parent>
 
     <packaging>jar</packaging>
-    <artifactId>data-explorer</artifactId>
-    <version>0.1-SNAPSHOT</version>
+    <artifactId>view-data-core</artifactId>
 
     <dependencies>
         <dependency>

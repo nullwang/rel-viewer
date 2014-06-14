@@ -4,11 +4,11 @@
     <parent>
         <groupId>org.rel-viewer</groupId>
         <artifactId>rel-viewer</artifactId>
-        <version>0.1-SNAPSHOT</version>
+        <version>1.2</version>
     </parent>
 
     <packaging>war</packaging>
-    <artifactId>dqb-explorer</artifactId>
+    <artifactId>data-explorer</artifactId>
 
     <dependencies>
         <dependency>
@@ -73,12 +73,12 @@
         </dependency>
         <dependency>
             <groupId>org.rel-viewer</groupId>
-            <artifactId>data-explorer</artifactId>
+            <artifactId>view-data-core</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.rel-viewer</groupId>
-            <artifactId>graph-viewer</artifactId>
+            <artifactId>graph-plugin</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
@@ -109,10 +109,10 @@
                             <artifactItems>
                                 <artifactItem>
                                     <groupId>org.rel-viewer</groupId>
-                                    <artifactId>graph-viewer</artifactId>
+                                    <artifactId>graph-plugin</artifactId>
                                     <type>jar</type>
                                     <outputDirectory>${project.build.directory}/${project.artifactId}-${project.version}/viewer</outputDirectory>
-                                    <destFileName>rel-viewer.jar</destFileName>
+                                    <destFileName>graph-plugin.jar</destFileName>
                                 </artifactItem>
                             </artifactItems>
                         </configuration>
