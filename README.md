@@ -1,6 +1,6 @@
 ###rel-viewer
 ####How to run
-first run <br> *mvn install* <br> then deploy the data-explorer-${version}.war to any servlet container
+first run <br> **mvn install** <br> then deploy the data-explorer-${version}.war to any servlet container
 ####Screenshot
   data visualization tool. using graph to show data relationship, you can easily find the value of data。
 It have different layouts to show the data relationship
